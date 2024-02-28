@@ -1,0 +1,21 @@
+.banner-round-shape {
+    animation: banner-circle infinite 13s ease; 
+}
+
+@keyframes banner-circle {
+    0% {
+        transform: translateY(30px);
+    }
+    25% {
+        transform: translateY(40px);
+    }
+    50% {
+        transform: translateX(40px);
+    }
+    75% {
+        transform: translateX(-40px);
+    }
+    100% {
+        transform: translateY(-40px);
+    }
+}
